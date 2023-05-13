@@ -12,6 +12,9 @@ public class HoroscopeFindApp {
         boolean isError=false;
         //variables declaration
         Scanner scan =new Scanner(System.in);
+        System.out.println("Bu uygulama burcunuzu bulmak için " +
+                           "Mehmet Duran Kaya tarafından üretilmiştir.\n " +
+                           "Lütfen sizden istenen Ay ve Gün bilgilerini rakam olarak giriniz");
         System.out.print("Doğduğunuz Ay: ");
         month= scan.nextInt();
         System.out.print("Doğduğunuz gün: ");
